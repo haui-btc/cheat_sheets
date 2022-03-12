@@ -1,6 +1,6 @@
 Basic Vim Commands
-
-Command 	Information
+==================
+Command 		Information
 ---------------------------------------------
 :e myfile 		Opens “myfile” for editing
 :w 			Save the file
