@@ -1,6 +1,8 @@
 Git Commands
 ============
 #Git-Doku: git-scm.com/doc
+
+Command						Information
 ----------------------------------------------------------------------------
 git status					status
 git init					create empty git repo
