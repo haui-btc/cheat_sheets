@@ -12,7 +12,7 @@ rm file 			delete file
 rm -r dir 			delete directory dir
 rm -f file 			force remove file
 rm -rf dir 			force remove directory dir *
- cp file1 file2 		copy file1 to file2
+cp file1 file2 		copy file1 to file2
 cp -r dir1 dir2 		copy dir1 to dir2; create dir2 if it doesn't exist
 mv file1 file2			rename or move file1 to file2 if file2 is an existing directory, moves file1 into directory file2
 ln -s file link 		create symbolic link link to file
@@ -32,6 +32,12 @@ uniq -d				only print multiple lines, one for every group
 uniq -D				print all multiple lines
 uniq -i				ignore case
 uniq -u				only print single lines
+find . -name "test.txt"		searches in current directory (.) for the file "test.txt"
+find . -iname "test.txt"	iname = not case sensitive
+find -type f			f = folder
+find -type d			d= directory
+find . -type f \( -name "*.sh" -o -name "*.txt" \) searches for files *.sh OR *.txt 
+
 
 ##Process Management:
 ps 				display your currently active processes
