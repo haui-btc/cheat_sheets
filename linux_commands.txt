@@ -47,6 +47,28 @@ chmod octal file 		change the permissions of file to octal, which can be found s
     				4 – read (r)
     				2 – write(w)
     				1 – execute (x)
+##Directory Permissions:
+chmod +rwx <directory>		add permissions
+chmod -rwx <directory>		remove permissions
+chmod +x <filename>		allow executable permissions
+chmod -wx <filename>		take out write and executble permissions
+
+##Directory Permissions for group owners and others
+chmod g+w <filename>
+chmod g-wx <filename>
+chmod o+w <filename>
+chmod o-rwx <foldername>
+chmod ugo+rwx <foldername>	ugo or a: all / u: users / g: group
+chmod a=r <foldername>		read permissions for everyone
+
+##Permissions in numeric code
+#0=No permission / 1=Execute / 2=Write / 4=Read
+#0=- / 1=-x / 2=-w- / 3=-wx / 4=r- / 5=r-x / 6=rw- / 7=rwx
+
+chmod 777 <foldername> 		read, write and execute permissions for everyone
+chmo 700 <foldername> 		read, write and execute permissions for the user
+chmod 237 <foldername>		write and execute (3) permission for the user, w (2) for the group and read, write and execute for the users
+
 
 ###Examples:
 chmod 777 			read, write, execute for all
