@@ -22,6 +22,16 @@ more file 			output the contents of file
 head file 			output the first 10 lines of file
 tail file 			output the last 10 lines of file
 tail -f file 			output the contents of file as it grows, starting with the last 10 lines
+sort				sort asc by first character
+sort -r				sort dsc by first character
+sort -f				ignore case
+sort -t<character>		split line in fields (e.g. -t: splitts "hello:world:3" into 3 fields (1-3))
+uniq				removes double entries
+uniq -c				count by lines
+uniq -d				only print multiple lines, one for every group
+uniq -D				print all multiple lines
+uniq -i				ignore case
+uniq -u				only print single lines
 
 ##Process Management:
 ps 				display your currently active processes
