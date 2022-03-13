@@ -37,7 +37,10 @@ find . -iname "test.txt"	iname = not case sensitive
 find -type f			f = folder
 find -type d			d= directory
 find . -type f \( -name "*.sh" -o -name "*.txt" \) searches for files *.sh OR *.txt 
-
+#find output
+------------
+*Lines preceded by a < are lines from the first file.
+*Lines preceded by a > are lines from the second file.
 
 ##Process Management:
 ps 				display your currently active processes
