@@ -4,6 +4,7 @@ Git Commands
 
 Command						Information
 ----------------------------------------------------------------------------
+git clone <url>					clone a git
 git status					status
 git init					create empty git repo
 rm -rf .git					delete .git
@@ -13,5 +14,15 @@ git add <filename>				add file to staging area
 git add .					add all files to staging area
 git commit -m <message>				commit incl. message
 git push					push changes to remote repo
-git log						view commit history
-git -b <branch-name>				create new branch
+git diff					see file changes
+git log						show change log from current repo
+git branch					list all local branches
+git branch -r					list referenced remote branches
+git -b  <branch-name>				create new branch
+git checkout <commit_hash_value>		switch to target commit			
+git checkout <branchname>			switch target branch
+git checkout -d <branchname>			delete branch
+git checkout master				switch to master
+git checkout master && git branch --merged	branches which are allready merged into master
+git merge <branchname> <branchname>		merge two branches
+
