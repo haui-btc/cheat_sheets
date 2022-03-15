@@ -22,6 +22,8 @@ more file 			output the contents of file
 head file 			output the first 10 lines of file
 tail file 			output the last 10 lines of file
 tail -n 5               output the last 5 lines of file
+tail +8 file            display data starting from the line we specified with our number
+tail -q file            outputting data from multiple files at once
 tail -f file 			output the contents of file as it grows, starting with the last 10 lines
 sort				sort asc by first character
 sort -r				sort dsc by first character
