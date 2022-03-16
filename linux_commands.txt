@@ -77,8 +77,8 @@ chmod ugo+rwx <foldername>	ugo or a: all / u: users / g: group
 chmod a=r <foldername>		read permissions for everyone
 
 ##Permissions in numeric code
-#0=No permission / 1=Execute / 2=Write / 4=Read
-#0=- / 1=-x / 2=-w- / 3=-wx / 4=r- / 5=r-x / 6=rw- / 7=rwx
+#0=No permission / 1=Execute / 2=Write / 3=2+1/ 4=Read / 5=4+1 / 6=4+2 / 7=4+2+1
+#0=- / 1=x / 2=w / 3=wx / 4=r / 5=r+x / 6=r+w / 7=r+w+x
 
 chmod 777 <foldername> 		read, write and execute permissions for everyone
 chmo 700 <foldername> 		read, write and execute permissions for the user
