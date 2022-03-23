@@ -1,6 +1,7 @@
 Git Commands
 ============
 #Git-Doku: git-scm.com/doc
+#README-Editor: https://pandao.github.io/editor.md/en.html
 
 Command						Information
 ----------------------------------------------------------------------------
