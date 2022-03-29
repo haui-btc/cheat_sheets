@@ -25,4 +25,4 @@ git checkout -d <branchname>			delete branch
 git checkout master				switch to master
 git checkout master && git branch --merged	branches which are allready merged into master
 git merge <branchname> <branchname>		merge two branches
-
+git diff --cached				shows changes

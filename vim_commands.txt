@@ -1,5 +1,8 @@
 Basic Vim Commands
 ==================
+vimdiff file_a file_b	shows difference 
+
+
 Command 		Information
 ---------------------------------------------
 :e myfile 		Opens “myfile” for editing
