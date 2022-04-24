@@ -11,6 +11,8 @@ git init					create empty git repo
 rm -rf .git					delete .git
 git config --global user.name <USERNAME>	add user
 git config --global user.email <EMAIL>		add email-address
+git config --global --unset user.name		remove user
+git config --global --unset user.emal		remove email
 git add <filename>				add file to staging area
 git add .					add all files to staging area
 git commit -m <message>				commit incl. message
